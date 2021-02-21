@@ -35,6 +35,11 @@ stopping after visiting 10 distinct web pages. At the end, it outputs the list o
 ![Alt Text](https://github.com/Balzu/email_scraper/blob/main/demo.gif)
 
 
+### Blog Post
+
+If want to read the associated blog post, please take a look [here!](http://thebytemachine.com/an_OSINT_tool_to_crawl_a_list_of_publicly_available_emails_from_websites)
+
+
 ### What's next?
 
 - If we are really interested only in those emails published on our organization's site, we could limit the search to only those pages belonging to the same, source domain. 
