@@ -25,6 +25,7 @@ Then, adjust the global variables at the beginning of the script, and simply run
 - __Crawl Limit__ : set the maximum number of pages that you want to crawl. Setting this value to 1 will only crawl emails from the provided webpage, setting a high value will navigate more webpages, possibly exiting form the starting domain.
 - __Finds Disguised Emails__: for some strange reasons, people are convinced that if they substitute the *@* simbol of their emails with something like *AT*, or *(AT)*, or even *[AT]*, that will be a good protection to avoid that their email is not being crawled. Well, with a single line of code (a.k.a. *regular expression*) we show to these ~University Professors~, ehm, guys, how much they are mistaken. 
 - __Avoid Already Visited Pages__: when fetching a new page to be visited from the queue of discovered webpages, we check that we have not already visited it!
+- __HTML Search__: the search is done all the HTML code and is not limited to visible text only.
 
 ### Demo
 In the following Demo, I feed the tool with an url from The Times and I set the limit
@@ -32,3 +33,10 @@ of crawled pages to 10. The tool visits the discovered webpages in a FIFO order 
 stopping after visiting 10 distinct web pages. At the end, it outputs the list of emails found on these pages.
 
 ![Alt Text](https://github.com/Balzu/email_scraper/blob/main/demo.gif)
+
+
+### What's next?
+
+- If we are really interested only in those emails published on our organization's site, we could limit the search to only those pages belonging to the same, source domain. 
+- Some smart guys write their email on Paint, save it as image and then upload it to their website. FOr the moment being, we are not able to catch those emails, although I believe that tools used by attacker possibly have that feature, at least for targeted attacks. I will think about adding it in the future.
+
