@@ -1,5 +1,5 @@
 <p align="center">
-<img src="scraper.png" width=200>
+<img src="scraper.png" width=300>
 </p>
 
 # email_scraper
