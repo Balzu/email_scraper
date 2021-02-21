@@ -5,7 +5,7 @@
 # email_scraper
 ### An assessment tool to discover which emails are published on your site
 
-### What is
+### What is email_scraper
 __email_scraper__ is a tool to extract emails from a website and from its linked websites.
 It's an OSINT (Open Source Intelligence) tool devised to gather (*scrape*) the publicly available emails in one or more websites. 
 Attackers use emails more and more as a way to deliver malicious payloads through attachments (*phishing*), so being aware of which emails
@@ -26,7 +26,7 @@ Then, adjust the global variables at the beginning of the script, and simply run
 - __Avoid Already Visited Pages__: when fetching a new page to be visited from the queue of discovered webpages, we check that we have not already visited it!
 
 ### Demo
-In the following Demo, I feed the tool with an url from WashingtonPost and I set the limit
+In the following Demo, I feed the tool with an url from The Times and I set the limit
 of crawled pages to 10. The tool visits the discovered webpages in a FIFO order (First In - First Out),
 stopping after visiting 10 distinct web pages. At the end, it outputs the list of emails found on these pages.
 
