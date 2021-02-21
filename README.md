@@ -1,10 +1,10 @@
 # email_scraper
+### An assessment tool to discover which emails are published on your site
 
 <p align="center">
 <img src="scraper.png" width=300>
 </p>
 
-### An assessment tool to discover which emails are published on your site
 
 ### What is email_scraper
 __email_scraper__ is a tool to extract emails from a website and from its linked websites.
