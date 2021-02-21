@@ -1,8 +1,9 @@
+# email_scraper
+
 <p align="center">
 <img src="scraper.png" width=300>
 </p>
 
-# email_scraper
 ### An assessment tool to discover which emails are published on your site
 
 ### What is email_scraper
